@@ -12,7 +12,7 @@ venv/
 .venv/
 env/
 ENV/
-
+gpstr.json
 #Ignore PDFs
 
 *.pdf
