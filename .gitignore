@@ -5,6 +5,8 @@
 # But keep this one
 
 !vfg.py
+!vfg2.py
+
 
 # Ignore virtual environments
 
