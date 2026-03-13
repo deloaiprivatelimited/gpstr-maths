@@ -770,9 +770,9 @@ async def generate_slides(chunk_file_data: dict, slides_dir: Path):
     plan = build_slide_plan(chunk_file_data, slides_dir)
 
     # skip if all slides already exist
-    # if all(p["slide_path"].exists() for p in plan):
-    #     print(f"  ⏭ Slides already exist")
-    #     return plan
+    if all(p["slide_path"].exists() for p in plan):
+        print(f"  ⏭ Slides already exist")
+        return plan
 
     async with async_playwright() as pw:
         browser = await pw.chromium.launch()
