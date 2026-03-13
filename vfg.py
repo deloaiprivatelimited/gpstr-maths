@@ -770,9 +770,9 @@ async def generate_slides(chunk_file_data: dict, slides_dir: Path):
     plan = build_slide_plan(chunk_file_data, slides_dir)
 
     # skip if all slides already exist
-    if all(p["slide_path"].exists() for p in plan):
-        print(f"  ⏭ Slides already exist")
-        return plan
+    # if all(p["slide_path"].exists() for p in plan):
+    #     print(f"  ⏭ Slides already exist")
+    #     return plan
 
     async with async_playwright() as pw:
         browser = await pw.chromium.launch()
@@ -885,9 +885,9 @@ def assemble_video(plan: list[dict], timeline: list[dict],
 def process_module(args):
     chunk_file, timeline_file, output_path = args
 
-    # if output_path.exists():
-    #     print(f"⏭ Skipped: {output_path}")
-    #     return
+    if output_path.exists():
+        print(f"⏭ Skipped: {output_path}")
+        return
 
     print(f"\n📦 Processing: {chunk_file.stem}")
 
