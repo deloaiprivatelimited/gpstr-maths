@@ -885,9 +885,9 @@ def assemble_video(plan: list[dict], timeline: list[dict],
 def process_module(args):
     chunk_file, timeline_file, output_path = args
 
-    if output_path.exists():
-        print(f"⏭ Skipped: {output_path}")
-        return
+    # if output_path.exists():
+    #     print(f"⏭ Skipped: {output_path}")
+    #     return
 
     print(f"\n📦 Processing: {chunk_file.stem}")
 
