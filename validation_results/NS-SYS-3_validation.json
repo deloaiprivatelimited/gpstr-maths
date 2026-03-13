@@ -1,0 +1,52 @@
+{
+  "chapter_name": "NS-SYS-3",
+  "validated_at": "2026-03-13T05:11:55.170114+00:00",
+  "total_modules": 7,
+  "ready_to_go": 7,
+  "do_not_release": 0,
+  "chapter_recommendation": "READY_TO_GO",
+  "module_results": [
+    {
+      "module_id": "class9_math_ch1_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:55.169590+00:00"
+    },
+    {
+      "module_id": "class9_math_ch1_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:55.169590+00:00"
+    },
+    {
+      "module_id": "class9_math_ch1_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:55.169590+00:00"
+    },
+    {
+      "module_id": "class9_math_ch1_concept_4",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:55.169590+00:00"
+    },
+    {
+      "module_id": "class9_math_ch1_concept_5",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:55.169590+00:00"
+    },
+    {
+      "module_id": "class9_math_ch1_concept_6",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:55.169590+00:00"
+    },
+    {
+      "module_id": "class9_math_ch1_concept_7",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:55.169590+00:00"
+    }
+  ]
+}

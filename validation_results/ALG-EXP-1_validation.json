@@ -1,0 +1,48 @@
+{
+  "chapter_name": "ALG-EXP-1",
+  "validated_at": "2026-03-13T04:38:58.665843+00:00",
+  "total_modules": 6,
+  "ready_to_go": 5,
+  "do_not_release": 1,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class7_math_ch10_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:38:58.664989+00:00"
+    },
+    {
+      "module_id": "class7_math_ch10_concept_2",
+      "showstoppers": [
+        "Missing required visual aid"
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:38:58.664989+00:00"
+    },
+    {
+      "module_id": "class7_math_ch10_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:38:58.664989+00:00"
+    },
+    {
+      "module_id": "class7_math_ch10_concept_4",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:38:58.664989+00:00"
+    },
+    {
+      "module_id": "class7_math_ch10_concept_5",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:38:58.664989+00:00"
+    },
+    {
+      "module_id": "class7_math_ch10_concept_6",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:38:58.664989+00:00"
+    }
+  ]
+}

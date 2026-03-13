@@ -1,0 +1,50 @@
+{
+  "chapter_name": "ALG-FAC-2",
+  "validated_at": "2026-03-13T04:39:23.716147+00:00",
+  "total_modules": 5,
+  "ready_to_go": 0,
+  "do_not_release": 5,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class8_math_ch12_concept_1",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The mathematical expressions (e.g., `70 = 2 × 35`) are missing from the steps in worked example class8_math_ch12_example_1."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:23.715904+00:00"
+    },
+    {
+      "module_id": "class8_math_ch12_concept_2",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The mathematical expressions are missing from the steps in worked examples class8_math_ch12_example_2 and class8_math_ch12_example_3."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:23.715904+00:00"
+    },
+    {
+      "module_id": "class8_math_ch12_concept_3",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The mathematical expressions are missing from the steps in worked examples class8_math_ch12_example_4 and class8_math_ch12_example_5."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:23.715904+00:00"
+    },
+    {
+      "module_id": "class8_math_ch12_concept_4",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The mathematical expressions are missing from the steps in all worked examples (class8_math_ch12_example_6 to class8_math_ch12_example_9)."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:23.715904+00:00"
+    },
+    {
+      "module_id": "class8_math_ch12_concept_5",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The mathematical expressions are missing from the steps in all worked examples (class8_math_ch12_example_10 to class8_math_ch12_example_13)."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:23.715904+00:00"
+    }
+  ]
+}

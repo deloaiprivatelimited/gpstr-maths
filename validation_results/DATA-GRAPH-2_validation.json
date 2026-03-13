@@ -1,0 +1,52 @@
+{
+  "chapter_name": "DATA-GRAPH-2",
+  "validated_at": "2026-03-13T04:39:58.578597+00:00",
+  "total_modules": 6,
+  "ready_to_go": 3,
+  "do_not_release": 3,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class8_math_ch13_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:39:58.578423+00:00"
+    },
+    {
+      "module_id": "class8_math_ch13_concept_2",
+      "showstoppers": [
+        "Missing required visual aid: The 'visual_aids' object for diagram 'class8_math_ch13_linegraph_temperature' is missing the 'data' array required to plot the graph."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:58.578423+00:00"
+    },
+    {
+      "module_id": "class8_math_ch13_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:39:58.578423+00:00"
+    },
+    {
+      "module_id": "class8_math_ch13_concept_4",
+      "showstoppers": [
+        "Missing required visual aid: The 'visual_aids' object for diagram 'class8_math_ch13_lineargraph_cost' is missing the 'data' array required to plot the graph."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:58.578423+00:00"
+    },
+    {
+      "module_id": "class8_math_ch13_concept_5",
+      "showstoppers": [
+        "Missing required visual aid: The 'visual_aids' object for diagram 'class8_math_ch13_distancetime_graph' is missing the 'data' array required to plot the graph."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:58.578423+00:00"
+    },
+    {
+      "module_id": "class8_math_ch13_concept_6",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:39:58.578423+00:00"
+    }
+  ]
+}

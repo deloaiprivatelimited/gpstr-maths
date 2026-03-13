@@ -1,0 +1,48 @@
+{
+  "chapter_name": "DATA-BAS-1",
+  "validated_at": "2026-03-13T04:40:03.868659+00:00",
+  "total_modules": 6,
+  "ready_to_go": 5,
+  "do_not_release": 1,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class7_math_ch3_concept_4",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:03.868169+00:00"
+    },
+    {
+      "module_id": "class7_math_ch4_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:03.868169+00:00"
+    },
+    {
+      "module_id": "class7_math_ch4_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:03.868169+00:00"
+    },
+    {
+      "module_id": "class8_math_ch4_concept_1",
+      "showstoppers": [
+        "Incorrect steps in a worked example: In the frequency distribution table (visual aid), the tally mark for 'ಅಂಕಗಳು' 8 is 'NN' which represents 5, but the 'ಆವೃತ್ತಿ' is 6. The correct tally mark should be 'NN |'."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:40:03.868169+00:00"
+    },
+    {
+      "module_id": "class8_math_ch4_concept_4",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:03.868169+00:00"
+    },
+    {
+      "module_id": "class8_math_ch4_concept_5",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:03.868169+00:00"
+    }
+  ]
+}

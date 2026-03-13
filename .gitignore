@@ -1,0 +1,35 @@
+# Ignore all Python files
+
+*.py
+
+# But keep this one
+
+!vfg.py
+
+# Ignore virtual environments
+
+venv/
+.venv/
+env/
+ENV/
+
+#Ignore PDFs
+
+*.pdf
+# Python cache
+
+**pycache**/
+*.pyc
+
+# Environment variables
+
+.env
+
+# Logs
+
+*.log
+
+# IDE folders
+
+.vscode/
+.idea/

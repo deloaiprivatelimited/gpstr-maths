@@ -1,0 +1,389 @@
+├── ./
+│   ├── .gitignore
+│   ├── clean_master_data.py
+│   ├── clean_modules.py
+│   ├── count_modules.py
+│   ├── data.json
+│   ├── delete_modules.py
+│   ├── estimate_prompts.py
+│   ├── folder_tree.txt
+│   ├── generate_audio.py
+│   ├── generate_chunks.py
+│   ├── generate_master_data.py
+│   ├── generate_modules.py
+│   ├── gpstr.json
+│   ├── modules_needing_revision.csv
+│   ├── module_validation_report.py
+│   ├── needs_r.py
+│   ├── regenerate_failed_modules.py
+│   ├── requirements.txt
+│   ├── structure_chunks.py
+│   ├── temp.py
+│   ├── validate_master_data.py
+│   ├── validate_modules.py
+│   ├── validate_modules2.py
+│   ├── vfg.py
+│   ├── audio/
+│   │   ├── ALG-AP-4/
+│   │   │   ├── class10_math_ch05_concept_1/
+│   │   │   │   ├── final_module.wav
+│   │   │   │   ├── seg_0000.wav
+│   │   │   │   ├── seg_0001.wav
+│   │   │   │   ├── seg_0002.wav
+│   │   │   │   ├── seg_0003.wav
+│   │   │   │   ├── seg_0004.wav
+│   │   │   │   ├── seg_0005.wav
+│   │   │   │   ├── seg_0006.wav
+│   │   │   │   ├── seg_0007.wav
+│   │   │   │   ├── seg_0008.wav
+│   │   │   │   ├── seg_0009.wav
+│   │   │   │   ├── seg_0010.wav
+│   │   │   │   ├── timeline.json
+│   │   │   ├── class10_math_ch05_concept_2/
+│   │   │   │   ├── final_module.wav
+│   │   │   │   ├── seg_0000.wav
+│   │   │   │   ├── seg_0001.wav
+│   │   │   │   ├── seg_0002.wav
+│   │   │   │   ├── seg_0003.wav
+│   │   │   │   ├── seg_0004.wav
+│   │   │   │   ├── seg_0005.wav
+│   │   │   │   ├── seg_0006.wav
+│   │   │   │   ├── seg_0007.wav
+│   │   │   │   ├── seg_0008.wav
+│   │   │   │   ├── timeline.json
+│   ├── chunks/
+│   │   ├── ALG-AP-4/
+│   │   │   ├── class10_math_ch05_concept_1.json
+│   │   │   ├── class10_math_ch05_concept_2.json
+│   │   ├── ALG-EQ1-1/
+│   │   ├── ALG-EQ1-2/
+│   │   ├── ALG-EQ2-3/
+│   │   ├── ALG-EXP-1/
+│   │   ├── ALG-EXP-2/
+│   │   ├── ALG-FAC-2/
+│   │   ├── ALG-PAIR-4/
+│   │   ├── ALG-POL-3/
+│   │   ├── ALG-QUAD-4/
+│   │   ├── COOR-ADV-2/
+│   │   ├── COOR-BAS-1/
+│   │   ├── DATA-BAS-1/
+│   │   ├── DATA-GRAPH-2/
+│   │   ├── DATA-STAT-2/
+│   │   ├── GEO-CIR-2/
+│   │   ├── GEO-EUC-2/
+│   │   ├── GEO-LA-1/
+│   │   ├── GEO-LA-2/
+│   │   ├── GEO-QUAD-1/
+│   │   ├── GEO-QUAD-2/
+│   │   ├── GEO-TRI-1/
+│   │   ├── GEO-TRI-2/
+│   │   ├── MEN-AREA-1/
+│   │   ├── MEN-CIR-3/
+│   │   ├── MEN-HER-3/
+│   │   ├── MEN-MEN-2/
+│   │   ├── MEN-VOL-3/
+│   │   ├── NS-CUBE-2/
+│   │   ├── NS-EXP-2/
+│   │   ├── NS-FRA-1/
+│   │   ├── NS-INT-1/
+│   │   ├── NS-NUM-1/
+│   │   ├── NS-PRI-1/
+│   │   ├── NS-RAT-2/
+│   │   ├── NS-REAL-4/
+│   │   ├── NS-SQR-2/
+│   │   ├── NS-SYS-3/
+│   │   ├── PROB-BAS-1/
+│   │   ├── RPP-COMP-1/
+│   │   ├── RPP-PROP-2/
+│   │   ├── TRI-APP-2/
+│   │   ├── TRI-INTRO-1/
+│   │   ├── VIS-CON-1/
+│   │   ├── VIS-SOLID-2/
+│   │   ├── VIS-SYM-1/
+│   ├── chunks_structured/
+│   │   ├── ALG-AP-4/
+│   │   │   ├── class10_math_ch05_concept_1.json
+│   │   │   ├── class10_math_ch05_concept_2.json
+│   ├── modules/
+│   │   ├── COOR-BAS-1_ERROR.txt
+│   │   ├── GEO-LA-1_ERROR.txt
+│   │   ├── TRI-INTRO-1_ERROR.txt
+│   │   ├── ALG-AP-4/
+│   │   │   ├── class10_math_ch05_concept_1.json
+│   │   │   ├── class10_math_ch05_concept_2.json
+│   │   │   ├── class10_math_ch05_concept_3.json
+│   │   │   ├── class10_math_ch05_concept_4.json
+│   │   ├── ALG-EQ1-1/
+│   │   │   ├── class7_math_ch4_concept_1.json
+│   │   │   ├── class7_math_ch4_concept_2.json
+│   │   │   ├── class7_math_ch4_concept_3.json
+│   │   │   ├── class7_math_ch4_concept_4.json
+│   │   │   ├── class7_math_ch4_concept_5.json
+│   │   │   ├── class7_math_ch4_concept_6.json
+│   │   │   ├── class7_math_ch4_concept_7.json
+│   │   ├── ALG-EQ1-2/
+│   │   │   ├── class8_math_ch2_concept_1.json
+│   │   │   ├── class8_math_ch2_concept_2.json
+│   │   │   ├── class8_math_ch2_concept_3.json
+│   │   ├── ALG-EQ2-3/
+│   │   │   ├── class9_math_ch4_concept_1.json
+│   │   │   ├── class9_math_ch4_concept_2.json
+│   │   │   ├── class9_math_ch4_concept_3.json
+│   │   ├── ALG-EXP-1/
+│   │   │   ├── class7_math_ch10_concept_1.json
+│   │   │   ├── class7_math_ch10_concept_2.json
+│   │   │   ├── class7_math_ch10_concept_3.json
+│   │   │   ├── class7_math_ch10_concept_4.json
+│   │   │   ├── class7_math_ch10_concept_5.json
+│   │   │   ├── class7_math_ch10_concept_6.json
+│   │   ├── ALG-EXP-2/
+│   │   │   ├── class8_math_ch8_concept_1.json
+│   │   │   ├── class8_math_ch8_concept_2.json
+│   │   │   ├── class8_math_ch8_concept_3.json
+│   │   │   ├── class8_math_ch8_concept_4.json
+│   │   ├── ALG-FAC-2/
+│   │   │   ├── class8_math_ch12_concept_1.json
+│   │   │   ├── class8_math_ch12_concept_2.json
+│   │   │   ├── class8_math_ch12_concept_3.json
+│   │   │   ├── class8_math_ch12_concept_4.json
+│   │   │   ├── class8_math_ch12_concept_5.json
+│   │   ├── ALG-PAIR-4/
+│   │   │   ├── class10_math_ch3_concept_1.json
+│   │   │   ├── class10_math_ch3_concept_2.json
+│   │   │   ├── class10_math_ch3_concept_3.json
+│   │   │   ├── class10_math_ch3_concept_4.json
+│   │   │   ├── class10_math_ch3_concept_5.json
+│   │   ├── ALG-POL-3/
+│   │   │   ├── class10_math_ch2_concept_1.json
+│   │   │   ├── class10_math_ch2_concept_2.json
+│   │   │   ├── class10_math_ch2_concept_3.json
+│   │   │   ├── class10_math_ch2_concept_4.json
+│   │   │   ├── class10_math_ch2_concept_5.json
+│   │   │   ├── class10_math_ch2_concept_6.json
+│   │   │   ├── class10_math_ch2_concept_7.json
+│   │   ├── ALG-QUAD-4/
+│   │   │   ├── class10_math_ch4_concept_1.json
+│   │   │   ├── class10_math_ch4_concept_2.json
+│   │   │   ├── class10_math_ch4_concept_3.json
+│   │   │   ├── class10_math_ch4_concept_4.json
+│   │   ├── COOR-ADV-2/
+│   │   │   ├── class10_math_ch07_concept_1.json
+│   │   │   ├── class10_math_ch07_concept_2.json
+│   │   ├── COOR-BAS-1/
+│   │   │   ├── class9_math_ch3_concept_1.json
+│   │   │   ├── class9_math_ch3_concept_2.json
+│   │   │   ├── class9_math_ch3_concept_3.json
+│   │   ├── DATA-BAS-1/
+│   │   │   ├── class7_math_ch3_concept_4.json
+│   │   │   ├── class7_math_ch4_concept_2.json
+│   │   │   ├── class7_math_ch4_concept_3.json
+│   │   │   ├── class8_math_ch4_concept_1.json
+│   │   │   ├── class8_math_ch4_concept_4.json
+│   │   │   ├── class8_math_ch4_concept_5.json
+│   │   ├── DATA-GRAPH-2/
+│   │   │   ├── class8_math_ch13_concept_1.json
+│   │   │   ├── class8_math_ch13_concept_2.json
+│   │   │   ├── class8_math_ch13_concept_3.json
+│   │   │   ├── class8_math_ch13_concept_4.json
+│   │   │   ├── class8_math_ch13_concept_5.json
+│   │   │   ├── class8_math_ch13_concept_6.json
+│   │   ├── DATA-STAT-2/
+│   │   │   ├── class10_math_ch13_concept_1.json
+│   │   │   ├── class10_math_ch13_concept_2.json
+│   │   │   ├── class10_math_ch13_concept_3.json
+│   │   │   ├── class10_math_ch13_concept_4.json
+│   │   │   ├── class10_math_ch13_concept_5.json
+│   │   ├── GEO-CIR-2/
+│   │   │   ├── class10_math_ch10_concept_1.json
+│   │   │   ├── class10_math_ch10_concept_2.json
+│   │   │   ├── class10_math_ch10_concept_3.json
+│   │   │   ├── class10_math_ch10_concept_4.json
+│   │   │   ├── class10_math_ch10_concept_5.json
+│   │   │   ├── class10_math_ch10_concept_6.json
+│   │   ├── GEO-EUC-2/
+│   │   │   ├── class9_math_ch5_concept_1.json
+│   │   │   ├── class9_math_ch5_concept_2.json
+│   │   │   ├── class9_math_ch5_concept_3.json
+│   │   │   ├── class9_math_ch5_concept_4.json
+│   │   ├── GEO-LA-1/
+│   │   │   ├── class7_math_ch2_concept_1.json
+│   │   │   ├── class7_math_ch2_concept_2.json
+│   │   │   ├── class7_math_ch2_concept_3.json
+│   │   │   ├── class8_math_ch5_concept_1.json
+│   │   │   ├── class8_math_ch5_concept_2.json
+│   │   │   ├── class8_math_ch5_concept_3.json
+│   │   ├── GEO-LA-2/
+│   │   │   ├── class9_math_ch6_concept_1.json
+│   │   │   ├── class9_math_ch6_concept_2.json
+│   │   │   ├── class9_math_ch6_concept_3.json
+│   │   │   ├── class9_math_ch6_concept_4.json
+│   │   ├── GEO-QUAD-1/
+│   │   │   ├── class8_math_ch3_concept_1.json
+│   │   │   ├── class8_math_ch3_concept_2.json
+│   │   │   ├── class8_math_ch3_concept_3.json
+│   │   │   ├── class8_math_ch3_concept_4.json
+│   │   │   ├── class8_math_ch3_concept_5.json
+│   │   │   ├── class8_math_ch3_concept_6.json
+│   │   │   ├── class8_math_ch3_concept_7.json
+│   │   │   ├── class8_math_ch3_concept_8.json
+│   │   │   ├── class8_math_ch3_concept_9.json
+│   │   ├── GEO-QUAD-2/
+│   │   │   ├── class9_math_ch8_concept_1.json
+│   │   │   ├── class9_math_ch8_concept_2.json
+│   │   │   ├── class9_math_ch8_concept_3.json
+│   │   ├── GEO-TRI-1/
+│   │   │   ├── class7_math_ch6_concept_1.json
+│   │   │   ├── class7_math_ch6_concept_2.json
+│   │   │   ├── class7_math_ch6_concept_3.json
+│   │   │   ├── class7_math_ch6_concept_4.json
+│   │   │   ├── class7_math_ch6_concept_5.json
+│   │   │   ├── class7_math_ch6_concept_6.json
+│   │   │   ├── class7_math_ch6_concept_7.json
+│   │   │   ├── class7_math_ch6_concept_8.json
+│   │   ├── GEO-TRI-2/
+│   │   │   ├── class10_math_ch6_concept_1.json
+│   │   │   ├── class10_math_ch6_concept_2.json
+│   │   │   ├── class10_math_ch6_concept_3.json
+│   │   │   ├── class10_math_ch6_concept_4.json
+│   │   │   ├── class9_math_ch7_concept_2.json
+│   │   │   ├── class9_math_ch7_concept_3.json
+│   │   ├── MEN-AREA-1/
+│   │   │   ├── class7_math_ch11_concept_1.json
+│   │   │   ├── class7_math_ch11_concept_2.json
+│   │   │   ├── class7_math_ch11_concept_3.json
+│   │   │   ├── class7_math_ch11_concept_4.json
+│   │   │   ├── class7_math_ch11_concept_5.json
+│   │   │   ├── class7_math_ch11_concept_6.json
+│   │   ├── MEN-CIR-3/
+│   │   │   ├── class10_math_ch11_concept_1.json
+│   │   │   ├── class10_math_ch11_concept_2.json
+│   │   │   ├── class10_math_ch11_concept_3.json
+│   │   ├── MEN-HER-3/
+│   │   │   ├── class9_math_ch10_concept_1.json
+│   │   ├── MEN-MEN-2/
+│   │   │   ├── class8_math_ch9_concept_1.json
+│   │   │   ├── class8_math_ch9_concept_2.json
+│   │   │   ├── class8_math_ch9_concept_3.json
+│   │   ├── MEN-VOL-3/
+│   │   │   ├── class10_math_ch12_concept_1.json
+│   │   │   ├── class10_math_ch12_concept_2.json
+│   │   │   ├── class9_math_ch11_concept_1.json
+│   │   │   ├── class9_math_ch11_concept_2.json
+│   │   ├── NS-CUBE-2/
+│   │   │   ├── class8_math_ch6_concept_1.json
+│   │   │   ├── class8_math_ch6_concept_2.json
+│   │   │   ├── class8_math_ch6_concept_3.json
+│   │   │   ├── class8_math_ch6_concept_4.json
+│   │   │   ├── class8_math_ch6_concept_5.json
+│   │   ├── NS-EXP-2/
+│   │   │   ├── class8_math_ch11_concept_1.json
+│   │   │   ├── class8_math_ch11_concept_2.json
+│   │   │   ├── class8_math_ch11_concept_3.json
+│   │   ├── NS-FRA-1/
+│   │   │   ├── class7_math_ch2_concept_1.json
+│   │   │   ├── class7_math_ch2_concept_2.json
+│   │   │   ├── class7_math_ch2_concept_3.json
+│   │   │   ├── class7_math_ch2_concept_4.json
+│   │   │   ├── class7_math_ch2_concept_5.json
+│   │   │   ├── class7_math_ch2_concept_6.json
+│   │   │   ├── class7_math_ch2_concept_7.json
+│   │   │   ├── class7_math_ch2_concept_8.json
+│   │   │   ├── class7_math_ch2_concept_9.json
+│   │   ├── NS-INT-1/
+│   │   │   ├── class7_math_ch1_concept_1.json
+│   │   │   ├── class7_math_ch1_concept_2.json
+│   │   │   ├── class7_math_ch1_concept_3.json
+│   │   │   ├── class7_math_ch1_concept_4.json
+│   │   │   ├── class7_math_ch1_concept_5.json
+│   │   ├── NS-NUM-1/
+│   │   │   ├── class7_math_ch3_concept_1.json
+│   │   │   ├── class7_math_ch3_concept_2.json
+│   │   │   ├── class7_math_ch3_concept_3.json
+│   │   │   ├── class7_math_ch3_concept_4.json
+│   │   │   ├── class7_math_ch3_concept_5.json
+│   │   │   ├── class7_math_ch3_concept_6.json
+│   │   ├── NS-PRI-1/
+│   │   │   ├── class6_math_ch5_concept_1.json
+│   │   │   ├── class6_math_ch5_concept_2.json
+│   │   │   ├── class6_math_ch5_concept_3.json
+│   │   │   ├── class6_math_ch5_concept_4.json
+│   │   │   ├── class6_math_ch5_concept_5.json
+│   │   │   ├── class6_math_ch5_concept_6.json
+│   │   │   ├── class6_math_ch5_concept_7.json
+│   │   │   ├── class6_math_ch5_concept_8.json
+│   │   ├── NS-RAT-2/
+│   │   │   ├── class8_math_ch8_concept_1.json
+│   │   │   ├── class8_math_ch8_concept_2.json
+│   │   │   ├── class8_math_ch8_concept_3.json
+│   │   │   ├── class8_math_ch8_concept_4.json
+│   │   │   ├── class8_math_ch8_concept_5.json
+│   │   │   ├── class8_math_ch8_concept_6.json
+│   │   ├── NS-REAL-4/
+│   │   │   ├── class10_math_ch1_concept_1.json
+│   │   │   ├── class10_math_ch1_concept_2.json
+│   │   │   ├── class10_math_ch1_concept_3.json
+│   │   ├── NS-SQR-2/
+│   │   │   ├── class8_math_ch5_concept_1.json
+│   │   │   ├── class8_math_ch5_concept_2.json
+│   │   │   ├── class8_math_ch5_concept_3.json
+│   │   │   ├── class8_math_ch5_concept_4.json
+│   │   │   ├── class8_math_ch5_concept_5.json
+│   │   │   ├── class8_math_ch5_concept_6.json
+│   │   ├── NS-SYS-3/
+│   │   │   ├── class9_math_ch1_concept_1.json
+│   │   │   ├── class9_math_ch1_concept_2.json
+│   │   │   ├── class9_math_ch1_concept_3.json
+│   │   │   ├── class9_math_ch1_concept_4.json
+│   │   │   ├── class9_math_ch1_concept_5.json
+│   │   │   ├── class9_math_ch1_concept_6.json
+│   │   │   ├── class9_math_ch1_concept_7.json
+│   │   ├── PROB-BAS-1/
+│   │   │   ├── class10_math_ch14_concept_1.json
+│   │   │   ├── class10_math_ch14_concept_2.json
+│   │   │   ├── class10_math_ch14_concept_3.json
+│   │   │   ├── class10_math_ch14_concept_4.json
+│   │   │   ├── class10_math_ch14_concept_5.json
+│   │   ├── RPP-COMP-1/
+│   │   │   ├── class8_math_ch7_concept_1.json
+│   │   │   ├── class8_math_ch7_concept_2.json
+│   │   │   ├── class8_math_ch7_concept_3.json
+│   │   │   ├── class8_math_ch7_concept_4.json
+│   │   │   ├── class8_math_ch7_concept_5.json
+│   │   │   ├── class8_math_ch7_concept_6.json
+│   │   │   ├── class8_math_ch7_concept_7.json
+│   │   ├── RPP-PROP-2/
+│   │   │   ├── class8_math_ch11_concept_1.json
+│   │   │   ├── class8_math_ch11_concept_2.json
+│   │   ├── TRI-APP-2/
+│   │   │   ├── class10_math_ch9_concept_1.json
+│   │   │   ├── class10_math_ch9_concept_2.json
+│   │   ├── TRI-INTRO-1/
+│   │   │   ├── class10_math_ch8_concept_1.json
+│   │   │   ├── class10_math_ch8_concept_2.json
+│   │   │   ├── class10_math_ch8_concept_3.json
+│   │   ├── VIS-CON-1/
+│   │   │   ├── class6_math_ch8_concept_1.json
+│   │   │   ├── class6_math_ch8_concept_2.json
+│   │   │   ├── class6_math_ch8_concept_3.json
+│   │   │   ├── class6_math_ch8_concept_4.json
+│   │   ├── VIS-SOLID-2/
+│   │   │   ├── class7_math_ch13_concept_1.json
+│   │   │   ├── class7_math_ch13_concept_2.json
+│   │   │   ├── class7_math_ch13_concept_3.json
+│   │   │   ├── class7_math_ch13_concept_4.json
+│   │   │   ├── class7_math_ch13_concept_5.json
+│   │   ├── VIS-SYM-1/
+│   │   │   ├── class8_math_ch9_concept_1.json
+│   │   │   ├── class8_math_ch9_concept_2.json
+│   │   │   ├── class8_math_ch9_concept_3.json
+│   ├── pre-data/
+│   │   ├── check_no_chapter.py
+│   │   ├── merge_pdfs.py
+│   │   ├── pdf_report.py
+│   │   ├── tree.py
+│   ├── prompts/
+│   │   ├── generate_chunks.txt
+│   │   ├── master_data.txt
+│   │   ├── master_data_validation.txt
+│   │   ├── module_splitter.txt
+│   │   ├── module_validator.txt

@@ -1,0 +1,46 @@
+{
+  "chapter_name": "NS-NUM-1",
+  "validated_at": "2026-03-13T04:20:08.395622+00:00",
+  "total_modules": 6,
+  "ready_to_go": 6,
+  "do_not_release": 0,
+  "chapter_recommendation": "READY_TO_GO",
+  "module_results": [
+    {
+      "module_id": "class7_math_ch3_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:20:08.395365+00:00"
+    },
+    {
+      "module_id": "class7_math_ch3_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:20:08.395365+00:00"
+    },
+    {
+      "module_id": "class7_math_ch3_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:20:08.395365+00:00"
+    },
+    {
+      "module_id": "class7_math_ch3_concept_4",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:20:08.395365+00:00"
+    },
+    {
+      "module_id": "class7_math_ch3_concept_5",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:20:08.395365+00:00"
+    },
+    {
+      "module_id": "class7_math_ch3_concept_6",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:20:08.395365+00:00"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "chapter_name": "ALG-EQ2-3",
+  "validated_at": "2026-03-13T04:39:10.517904+00:00",
+  "total_modules": 3,
+  "ready_to_go": 0,
+  "do_not_release": 3,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class9_math_ch4_concept_1",
+      "showstoppers": [
+        "Hallucinated content not in master data: The formula exception contains the Bengali word 'যদি'.",
+        "Incorrect steps in a worked example: The 'latex' field containing calculations is missing from the steps of worked example 'class9_math_ch4_example_1'.",
+        "Incorrect steps in a worked example: The 'latex' field containing calculations is missing from the steps of worked example 'class9_math_ch4_example_2'."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:10.517435+00:00"
+    },
+    {
+      "module_id": "class9_math_ch4_concept_2",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'latex' and 'result' fields are missing from the steps of worked example 'class9_math_ch4_example_3'.",
+        "Incorrect steps in a worked example: The 'latex' and 'result' fields are missing from the steps of worked example 'class9_math_ch4_example_4'."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:10.517435+00:00"
+    },
+    {
+      "module_id": "class9_math_ch4_concept_3",
+      "showstoppers": [
+        "Incorrect data format for visual aid 'class9_math_ch4_one_variable_solution_numberline': The 'annotations' field contains a stringified JSON instead of a valid JSON object, which will cause a rendering failure."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:10.517435+00:00"
+    }
+  ]
+}

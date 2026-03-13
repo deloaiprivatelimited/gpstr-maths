@@ -1,0 +1,30 @@
+{
+  "chapter_name": "COOR-BAS-1",
+  "validated_at": "2026-03-13T04:39:42.348184+00:00",
+  "total_modules": 3,
+  "ready_to_go": 2,
+  "do_not_release": 1,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class9_math_ch3_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:39:42.348020+00:00"
+    },
+    {
+      "module_id": "class9_math_ch3_concept_2",
+      "showstoppers": [
+        "Missing formula/theorem/worked example that is in master data: Worked example with id 'class9_math_ch3_example_1' is missing from the module."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:42.348020+00:00"
+    },
+    {
+      "module_id": "class9_math_ch3_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:39:42.348020+00:00"
+    }
+  ]
+}

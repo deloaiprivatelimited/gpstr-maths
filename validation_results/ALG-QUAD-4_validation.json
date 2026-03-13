@@ -1,0 +1,42 @@
+{
+  "chapter_name": "ALG-QUAD-4",
+  "validated_at": "2026-03-13T04:39:32.790555+00:00",
+  "total_modules": 4,
+  "ready_to_go": 0,
+  "do_not_release": 4,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class10_math_ch4_concept_1",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example class10_math_ch4_example_1."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:32.790298+00:00"
+    },
+    {
+      "module_id": "class10_math_ch4_concept_2",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example class10_math_ch4_example_2."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:32.790298+00:00"
+    },
+    {
+      "module_id": "class10_math_ch4_concept_3",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example class10_math_ch4_example_3."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:32.790298+00:00"
+    },
+    {
+      "module_id": "class10_math_ch4_concept_4",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example class10_math_ch4_example_4."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:39:32.790298+00:00"
+    }
+  ]
+}

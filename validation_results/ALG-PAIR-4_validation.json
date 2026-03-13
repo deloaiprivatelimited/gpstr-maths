@@ -1,0 +1,40 @@
+{
+  "chapter_name": "ALG-PAIR-4",
+  "validated_at": "2026-03-13T04:17:27.299371+00:00",
+  "total_modules": 5,
+  "ready_to_go": 5,
+  "do_not_release": 0,
+  "chapter_recommendation": "READY_TO_GO",
+  "module_results": [
+    {
+      "module_id": "class10_math_ch3_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:17:27.298903+00:00"
+    },
+    {
+      "module_id": "class10_math_ch3_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:17:27.298903+00:00"
+    },
+    {
+      "module_id": "class10_math_ch3_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:17:27.298903+00:00"
+    },
+    {
+      "module_id": "class10_math_ch3_concept_4",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:17:27.298903+00:00"
+    },
+    {
+      "module_id": "class10_math_ch3_concept_5",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:17:27.298903+00:00"
+    }
+  ]
+}

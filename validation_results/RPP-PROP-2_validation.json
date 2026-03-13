@@ -1,0 +1,22 @@
+{
+  "chapter_name": "RPP-PROP-2",
+  "validated_at": "2026-03-13T04:23:01.893436+00:00",
+  "total_modules": 2,
+  "ready_to_go": 2,
+  "do_not_release": 0,
+  "chapter_recommendation": "READY_TO_GO",
+  "module_results": [
+    {
+      "module_id": "class8_math_ch11_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:23:01.893166+00:00"
+    },
+    {
+      "module_id": "class8_math_ch11_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:23:01.893166+00:00"
+    }
+  ]
+}

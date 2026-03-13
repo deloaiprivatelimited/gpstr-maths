@@ -1,0 +1,40 @@
+{
+  "chapter_name": "NS-CUBE-2",
+  "validated_at": "2026-03-13T04:22:37.762802+00:00",
+  "total_modules": 5,
+  "ready_to_go": 5,
+  "do_not_release": 0,
+  "chapter_recommendation": "READY_TO_GO",
+  "module_results": [
+    {
+      "module_id": "class8_math_ch6_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:37.762306+00:00"
+    },
+    {
+      "module_id": "class8_math_ch6_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:37.762306+00:00"
+    },
+    {
+      "module_id": "class8_math_ch6_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:37.762306+00:00"
+    },
+    {
+      "module_id": "class8_math_ch6_concept_4",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:37.762306+00:00"
+    },
+    {
+      "module_id": "class8_math_ch6_concept_5",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:37.762306+00:00"
+    }
+  ]
+}

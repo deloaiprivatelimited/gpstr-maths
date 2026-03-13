@@ -1,0 +1,62 @@
+{
+  "chapter_name": "NS-PRI-1",
+  "validated_at": "2026-03-13T05:11:43.925350+00:00",
+  "total_modules": 8,
+  "ready_to_go": 6,
+  "do_not_release": 2,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class6_math_ch5_concept_1",
+      "showstoppers": [
+        "Missing required visual aid: The data for the Venn diagram (class6_math_ch5_common_multiples_venn) is missing from the visual_aids object."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T05:11:43.924911+00:00"
+    },
+    {
+      "module_id": "class6_math_ch5_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:43.924911+00:00"
+    },
+    {
+      "module_id": "class6_math_ch5_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:43.924911+00:00"
+    },
+    {
+      "module_id": "class6_math_ch5_concept_4",
+      "showstoppers": [
+        "Missing required visual aid: The 'special_cells' data for the Sieve of Eratosthenes table (class6_math_ch5_sieve_of_eratosthenes_table) is missing."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T05:11:43.924911+00:00"
+    },
+    {
+      "module_id": "class6_math_ch5_concept_5",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:43.924911+00:00"
+    },
+    {
+      "module_id": "class6_math_ch5_concept_6",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:43.924911+00:00"
+    },
+    {
+      "module_id": "class6_math_ch5_concept_7",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:43.924911+00:00"
+    },
+    {
+      "module_id": "class6_math_ch5_concept_8",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:11:43.924911+00:00"
+    }
+  ]
+}

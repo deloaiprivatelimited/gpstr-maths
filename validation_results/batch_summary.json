@@ -1,0 +1,584 @@
+{
+  "generated_at": "2026-03-13T05:18:49.079841+00:00",
+  "batch_recommendation": "DO_NOT_RELEASE",
+  "total_chapters": 46,
+  "total_modules": 222,
+  "ready_to_go": 187,
+  "do_not_release": 35,
+  "flagged_modules": [
+    {
+      "chapter": "ALG-AP-4",
+      "module_id": "class10_math_ch05_concept_1",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example 'class10_math_ch05_example_1'."
+      ]
+    },
+    {
+      "chapter": "ALG-AP-4",
+      "module_id": "class10_math_ch05_concept_2",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example 'class10_math_ch05_example_2'.",
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example 'class10_math_ch05_example_3'."
+      ]
+    },
+    {
+      "chapter": "ALG-AP-4",
+      "module_id": "class10_math_ch05_concept_3",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example 'class10_math_ch05_example_4'."
+      ]
+    },
+    {
+      "chapter": "ALG-AP-4",
+      "module_id": "class10_math_ch05_concept_4",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example 'class10_math_ch05_example_5'."
+      ]
+    },
+    {
+      "chapter": "ALG-EQ2-3",
+      "module_id": "class9_math_ch4_concept_1",
+      "showstoppers": [
+        "Hallucinated content not in master data: The formula exception contains the Bengali word 'যদি'.",
+        "Incorrect steps in a worked example: The 'latex' field containing calculations is missing from the steps of worked example 'class9_math_ch4_example_1'.",
+        "Incorrect steps in a worked example: The 'latex' field containing calculations is missing from the steps of worked example 'class9_math_ch4_example_2'."
+      ]
+    },
+    {
+      "chapter": "ALG-EQ2-3",
+      "module_id": "class9_math_ch4_concept_2",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'latex' and 'result' fields are missing from the steps of worked example 'class9_math_ch4_example_3'.",
+        "Incorrect steps in a worked example: The 'latex' and 'result' fields are missing from the steps of worked example 'class9_math_ch4_example_4'."
+      ]
+    },
+    {
+      "chapter": "ALG-EQ2-3",
+      "module_id": "class9_math_ch4_concept_3",
+      "showstoppers": [
+        "Incorrect data format for visual aid 'class9_math_ch4_one_variable_solution_numberline': The 'annotations' field contains a stringified JSON instead of a valid JSON object, which will cause a rendering failure."
+      ]
+    },
+    {
+      "chapter": "ALG-EXP-1",
+      "module_id": "class7_math_ch10_concept_2",
+      "showstoppers": [
+        "Missing required visual aid"
+      ]
+    },
+    {
+      "chapter": "ALG-FAC-2",
+      "module_id": "class8_math_ch12_concept_1",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The mathematical expressions (e.g., `70 = 2 × 35`) are missing from the steps in worked example class8_math_ch12_example_1."
+      ]
+    },
+    {
+      "chapter": "ALG-FAC-2",
+      "module_id": "class8_math_ch12_concept_2",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The mathematical expressions are missing from the steps in worked examples class8_math_ch12_example_2 and class8_math_ch12_example_3."
+      ]
+    },
+    {
+      "chapter": "ALG-FAC-2",
+      "module_id": "class8_math_ch12_concept_3",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The mathematical expressions are missing from the steps in worked examples class8_math_ch12_example_4 and class8_math_ch12_example_5."
+      ]
+    },
+    {
+      "chapter": "ALG-FAC-2",
+      "module_id": "class8_math_ch12_concept_4",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The mathematical expressions are missing from the steps in all worked examples (class8_math_ch12_example_6 to class8_math_ch12_example_9)."
+      ]
+    },
+    {
+      "chapter": "ALG-FAC-2",
+      "module_id": "class8_math_ch12_concept_5",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The mathematical expressions are missing from the steps in all worked examples (class8_math_ch12_example_10 to class8_math_ch12_example_13)."
+      ]
+    },
+    {
+      "chapter": "ALG-QUAD-4",
+      "module_id": "class10_math_ch4_concept_1",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example class10_math_ch4_example_1."
+      ]
+    },
+    {
+      "chapter": "ALG-QUAD-4",
+      "module_id": "class10_math_ch4_concept_2",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example class10_math_ch4_example_2."
+      ]
+    },
+    {
+      "chapter": "ALG-QUAD-4",
+      "module_id": "class10_math_ch4_concept_3",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example class10_math_ch4_example_3."
+      ]
+    },
+    {
+      "chapter": "ALG-QUAD-4",
+      "module_id": "class10_math_ch4_concept_4",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' details are missing from the steps of worked example class10_math_ch4_example_4."
+      ]
+    },
+    {
+      "chapter": "COOR-BAS-1",
+      "module_id": "class9_math_ch3_concept_2",
+      "showstoppers": [
+        "Missing formula/theorem/worked example that is in master data: Worked example with id 'class9_math_ch3_example_1' is missing from the module."
+      ]
+    },
+    {
+      "chapter": "DATA-BAS-1",
+      "module_id": "class8_math_ch4_concept_1",
+      "showstoppers": [
+        "Incorrect steps in a worked example: In the frequency distribution table (visual aid), the tally mark for 'ಅಂಕಗಳು' 8 is 'NN' which represents 5, but the 'ಆವೃತ್ತಿ' is 6. The correct tally mark should be 'NN |'."
+      ]
+    },
+    {
+      "chapter": "DATA-GRAPH-2",
+      "module_id": "class8_math_ch13_concept_2",
+      "showstoppers": [
+        "Missing required visual aid: The 'visual_aids' object for diagram 'class8_math_ch13_linegraph_temperature' is missing the 'data' array required to plot the graph."
+      ]
+    },
+    {
+      "chapter": "DATA-GRAPH-2",
+      "module_id": "class8_math_ch13_concept_4",
+      "showstoppers": [
+        "Missing required visual aid: The 'visual_aids' object for diagram 'class8_math_ch13_lineargraph_cost' is missing the 'data' array required to plot the graph."
+      ]
+    },
+    {
+      "chapter": "DATA-GRAPH-2",
+      "module_id": "class8_math_ch13_concept_5",
+      "showstoppers": [
+        "Missing required visual aid: The 'visual_aids' object for diagram 'class8_math_ch13_distancetime_graph' is missing the 'data' array required to plot the graph."
+      ]
+    },
+    {
+      "chapter": "GEO-LA-1",
+      "module_id": "class8_math_ch5_concept_3",
+      "showstoppers": [
+        "Incorrect steps in a worked example: In example 'class8_math_ch5_example_2', step 7, the justification for finding ∠6 from ∠2 is 'ಪರ್ಯಾಯ ಅಂತರ್ ಕೋನಗಳು' (Alternate Interior Angles), which is mathematically incorrect. The correct relationship is 'ಅನುರೂಪ ಕೋನಗಳು' (Corresponding Angles)."
+      ]
+    },
+    {
+      "chapter": "GEO-LA-2",
+      "module_id": "class9_math_ch6_concept_2",
+      "showstoppers": [
+        "Missing formula/theorem/worked example that is in master data: The LaTeX expressions for the steps in worked examples class9_math_ch6_example_1, class9_math_ch6_example_2, and class9_math_ch6_example_3 are missing."
+      ]
+    },
+    {
+      "chapter": "GEO-LA-2",
+      "module_id": "class9_math_ch6_concept_4",
+      "showstoppers": [
+        "Missing formula/theorem/worked example that is in master data: The LaTeX expressions for the steps in worked examples class9_math_ch6_example_4, class9_math_ch6_example_5, and class9_math_ch6_example_6 are missing."
+      ]
+    },
+    {
+      "chapter": "MEN-HER-3",
+      "module_id": "class9_math_ch10_concept_1",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' field, which contains the actual mathematical computation for each step, is missing from all steps in all three worked examples.",
+        "Missing required visual aid: The visual aid 'class9_math_ch10_herons_formula_geometric_figure' is missing the 'figure_data' and 'description' required to render the diagram."
+      ]
+    },
+    {
+      "chapter": "NS-PRI-1",
+      "module_id": "class6_math_ch5_concept_1",
+      "showstoppers": [
+        "Missing required visual aid: The data for the Venn diagram (class6_math_ch5_common_multiples_venn) is missing from the visual_aids object."
+      ]
+    },
+    {
+      "chapter": "NS-PRI-1",
+      "module_id": "class6_math_ch5_concept_4",
+      "showstoppers": [
+        "Missing required visual aid: The 'special_cells' data for the Sieve of Eratosthenes table (class6_math_ch5_sieve_of_eratosthenes_table) is missing."
+      ]
+    },
+    {
+      "chapter": "RPP-COMP-1",
+      "module_id": "class8_math_ch7_concept_1",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_1' for steps 1 and 2."
+      ]
+    },
+    {
+      "chapter": "RPP-COMP-1",
+      "module_id": "class8_math_ch7_concept_2",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_2' for all steps."
+      ]
+    },
+    {
+      "chapter": "RPP-COMP-1",
+      "module_id": "class8_math_ch7_concept_3",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_3' for steps 2, 3, and 4."
+      ]
+    },
+    {
+      "chapter": "RPP-COMP-1",
+      "module_id": "class8_math_ch7_concept_4",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_4' for steps 2, 3, 4, and 5."
+      ]
+    },
+    {
+      "chapter": "RPP-COMP-1",
+      "module_id": "class8_math_ch7_concept_5",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_5' for steps 2 and 3."
+      ]
+    },
+    {
+      "chapter": "RPP-COMP-1",
+      "module_id": "class8_math_ch7_concept_6",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_6' for steps 2, 3, and 4."
+      ]
+    },
+    {
+      "chapter": "RPP-COMP-1",
+      "module_id": "class8_math_ch7_concept_7",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_7' for steps 2 and 3."
+      ]
+    }
+  ],
+  "chapter_summaries": [
+    {
+      "chapter": "ALG-AP-4",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 4,
+      "ready": 0,
+      "blocked": 4
+    },
+    {
+      "chapter": "ALG-EQ1-1",
+      "recommendation": "READY_TO_GO",
+      "modules": 7,
+      "ready": 7,
+      "blocked": 0
+    },
+    {
+      "chapter": "ALG-EQ1-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 3,
+      "ready": 3,
+      "blocked": 0
+    },
+    {
+      "chapter": "ALG-EQ2-3",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 3,
+      "ready": 0,
+      "blocked": 3
+    },
+    {
+      "chapter": "ALG-EXP-1",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 6,
+      "ready": 5,
+      "blocked": 1
+    },
+    {
+      "chapter": "ALG-EXP-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 4,
+      "ready": 4,
+      "blocked": 0
+    },
+    {
+      "chapter": "ALG-FAC-2",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 5,
+      "ready": 0,
+      "blocked": 5
+    },
+    {
+      "chapter": "ALG-PAIR-4",
+      "recommendation": "READY_TO_GO",
+      "modules": 5,
+      "ready": 5,
+      "blocked": 0
+    },
+    {
+      "chapter": "ALG-POL-3",
+      "recommendation": "READY_TO_GO",
+      "modules": 7,
+      "ready": 7,
+      "blocked": 0
+    },
+    {
+      "chapter": "ALG-QUAD-4",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 4,
+      "ready": 0,
+      "blocked": 4
+    },
+    {
+      "chapter": "COOR-ADV-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 2,
+      "ready": 2,
+      "blocked": 0
+    },
+    {
+      "chapter": "COOR-BAS-1",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 3,
+      "ready": 2,
+      "blocked": 1
+    },
+    {
+      "chapter": "DATA-BAS-1",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 6,
+      "ready": 5,
+      "blocked": 1
+    },
+    {
+      "chapter": "DATA-GRAPH-2",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 6,
+      "ready": 3,
+      "blocked": 3
+    },
+    {
+      "chapter": "DATA-STAT-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 5,
+      "ready": 5,
+      "blocked": 0
+    },
+    {
+      "chapter": "GEO-CIR-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 6,
+      "ready": 6,
+      "blocked": 0
+    },
+    {
+      "chapter": "GEO-EUC-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 4,
+      "ready": 4,
+      "blocked": 0
+    },
+    {
+      "chapter": "GEO-LA-1",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 6,
+      "ready": 5,
+      "blocked": 1
+    },
+    {
+      "chapter": "GEO-LA-2",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 4,
+      "ready": 2,
+      "blocked": 2
+    },
+    {
+      "chapter": "GEO-QUAD-1",
+      "recommendation": "READY_TO_GO",
+      "modules": 9,
+      "ready": 9,
+      "blocked": 0
+    },
+    {
+      "chapter": "GEO-QUAD-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 3,
+      "ready": 3,
+      "blocked": 0
+    },
+    {
+      "chapter": "GEO-TRI-1",
+      "recommendation": "READY_TO_GO",
+      "modules": 8,
+      "ready": 8,
+      "blocked": 0
+    },
+    {
+      "chapter": "GEO-TRI-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 6,
+      "ready": 6,
+      "blocked": 0
+    },
+    {
+      "chapter": "MEN-AREA-1",
+      "recommendation": "READY_TO_GO",
+      "modules": 6,
+      "ready": 6,
+      "blocked": 0
+    },
+    {
+      "chapter": "MEN-CIR-3",
+      "recommendation": "READY_TO_GO",
+      "modules": 3,
+      "ready": 3,
+      "blocked": 0
+    },
+    {
+      "chapter": "MEN-HER-3",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 1,
+      "ready": 0,
+      "blocked": 1
+    },
+    {
+      "chapter": "MEN-MEN-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 3,
+      "ready": 3,
+      "blocked": 0
+    },
+    {
+      "chapter": "MEN-VOL-3",
+      "recommendation": "READY_TO_GO",
+      "modules": 4,
+      "ready": 4,
+      "blocked": 0
+    },
+    {
+      "chapter": "NS-CUBE-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 5,
+      "ready": 5,
+      "blocked": 0
+    },
+    {
+      "chapter": "NS-EXP-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 3,
+      "ready": 3,
+      "blocked": 0
+    },
+    {
+      "chapter": "NS-FRA-1",
+      "recommendation": "READY_TO_GO",
+      "modules": 9,
+      "ready": 9,
+      "blocked": 0
+    },
+    {
+      "chapter": "NS-INT-1",
+      "recommendation": "READY_TO_GO",
+      "modules": 5,
+      "ready": 5,
+      "blocked": 0
+    },
+    {
+      "chapter": "NS-NUM-1",
+      "recommendation": "READY_TO_GO",
+      "modules": 6,
+      "ready": 6,
+      "blocked": 0
+    },
+    {
+      "chapter": "NS-PRI-1",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 8,
+      "ready": 6,
+      "blocked": 2
+    },
+    {
+      "chapter": "NS-RAT-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 6,
+      "ready": 6,
+      "blocked": 0
+    },
+    {
+      "chapter": "NS-REAL-4",
+      "recommendation": "READY_TO_GO",
+      "modules": 3,
+      "ready": 3,
+      "blocked": 0
+    },
+    {
+      "chapter": "NS-SQR-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 6,
+      "ready": 6,
+      "blocked": 0
+    },
+    {
+      "chapter": "NS-SYS-3",
+      "recommendation": "READY_TO_GO",
+      "modules": 7,
+      "ready": 7,
+      "blocked": 0
+    },
+    {
+      "chapter": "PROB-BAS-1",
+      "recommendation": "READY_TO_GO",
+      "modules": 5,
+      "ready": 5,
+      "blocked": 0
+    },
+    {
+      "chapter": "RPP-COMP-1",
+      "recommendation": "DO_NOT_RELEASE",
+      "modules": 7,
+      "ready": 0,
+      "blocked": 7
+    },
+    {
+      "chapter": "RPP-PROP-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 2,
+      "ready": 2,
+      "blocked": 0
+    },
+    {
+      "chapter": "TRI-APP-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 2,
+      "ready": 2,
+      "blocked": 0
+    },
+    {
+      "chapter": "TRI-INTRO-1",
+      "recommendation": "READY_TO_GO",
+      "modules": 3,
+      "ready": 3,
+      "blocked": 0
+    },
+    {
+      "chapter": "VIS-CON-1",
+      "recommendation": "READY_TO_GO",
+      "modules": 4,
+      "ready": 4,
+      "blocked": 0
+    },
+    {
+      "chapter": "VIS-SOLID-2",
+      "recommendation": "READY_TO_GO",
+      "modules": 5,
+      "ready": 5,
+      "blocked": 0
+    },
+    {
+      "chapter": "VIS-SYM-1",
+      "recommendation": "READY_TO_GO",
+      "modules": 3,
+      "ready": 3,
+      "blocked": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chapter_name": "TRI-APP-2",
+  "validated_at": "2026-03-13T05:18:40.593310+00:00",
+  "total_modules": 2,
+  "ready_to_go": 2,
+  "do_not_release": 0,
+  "chapter_recommendation": "READY_TO_GO",
+  "module_results": [
+    {
+      "module_id": "class10_math_ch9_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:18:40.593128+00:00"
+    },
+    {
+      "module_id": "class10_math_ch9_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T05:18:40.593128+00:00"
+    }
+  ]
+}

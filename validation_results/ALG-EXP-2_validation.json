@@ -1,0 +1,34 @@
+{
+  "chapter_name": "ALG-EXP-2",
+  "validated_at": "2026-03-13T04:39:15.268281+00:00",
+  "total_modules": 4,
+  "ready_to_go": 4,
+  "do_not_release": 0,
+  "chapter_recommendation": "READY_TO_GO",
+  "module_results": [
+    {
+      "module_id": "class8_math_ch8_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:39:15.267902+00:00"
+    },
+    {
+      "module_id": "class8_math_ch8_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:39:15.267902+00:00"
+    },
+    {
+      "module_id": "class8_math_ch8_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:39:15.267902+00:00"
+    },
+    {
+      "module_id": "class8_math_ch8_concept_4",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:39:15.267902+00:00"
+    }
+  ]
+}

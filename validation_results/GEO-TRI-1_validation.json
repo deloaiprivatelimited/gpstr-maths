@@ -1,0 +1,58 @@
+{
+  "chapter_name": "GEO-TRI-1",
+  "validated_at": "2026-03-13T04:22:06.580473+00:00",
+  "total_modules": 8,
+  "ready_to_go": 8,
+  "do_not_release": 0,
+  "chapter_recommendation": "READY_TO_GO",
+  "module_results": [
+    {
+      "module_id": "class7_math_ch6_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:06.580055+00:00"
+    },
+    {
+      "module_id": "class7_math_ch6_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:06.580055+00:00"
+    },
+    {
+      "module_id": "class7_math_ch6_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:06.580055+00:00"
+    },
+    {
+      "module_id": "class7_math_ch6_concept_4",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:06.580055+00:00"
+    },
+    {
+      "module_id": "class7_math_ch6_concept_5",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:06.580055+00:00"
+    },
+    {
+      "module_id": "class7_math_ch6_concept_6",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:06.580055+00:00"
+    },
+    {
+      "module_id": "class7_math_ch6_concept_7",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:06.580055+00:00"
+    },
+    {
+      "module_id": "class7_math_ch6_concept_8",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:22:06.580055+00:00"
+    }
+  ]
+}

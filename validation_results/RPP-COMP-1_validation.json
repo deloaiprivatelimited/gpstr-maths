@@ -1,0 +1,66 @@
+{
+  "chapter_name": "RPP-COMP-1",
+  "validated_at": "2026-03-13T04:41:19.714751+00:00",
+  "total_modules": 7,
+  "ready_to_go": 0,
+  "do_not_release": 7,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class8_math_ch7_concept_1",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_1' for steps 1 and 2."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:41:19.714278+00:00"
+    },
+    {
+      "module_id": "class8_math_ch7_concept_2",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_2' for all steps."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:41:19.714278+00:00"
+    },
+    {
+      "module_id": "class8_math_ch7_concept_3",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_3' for steps 2, 3, and 4."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:41:19.714278+00:00"
+    },
+    {
+      "module_id": "class8_math_ch7_concept_4",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_4' for steps 2, 3, 4, and 5."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:41:19.714278+00:00"
+    },
+    {
+      "module_id": "class8_math_ch7_concept_5",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_5' for steps 2 and 3."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:41:19.714278+00:00"
+    },
+    {
+      "module_id": "class8_math_ch7_concept_6",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_6' for steps 2, 3, and 4."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:41:19.714278+00:00"
+    },
+    {
+      "module_id": "class8_math_ch7_concept_7",
+      "showstoppers": [
+        "Missing calculation in worked example 'class8_math_ch7_example_7' for steps 2 and 3."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:41:19.714278+00:00"
+    }
+  ]
+}

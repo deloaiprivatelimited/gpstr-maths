@@ -1,0 +1,38 @@
+{
+  "chapter_name": "GEO-LA-2",
+  "validated_at": "2026-03-13T04:40:25.682148+00:00",
+  "total_modules": 4,
+  "ready_to_go": 2,
+  "do_not_release": 2,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class9_math_ch6_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:25.681618+00:00"
+    },
+    {
+      "module_id": "class9_math_ch6_concept_2",
+      "showstoppers": [
+        "Missing formula/theorem/worked example that is in master data: The LaTeX expressions for the steps in worked examples class9_math_ch6_example_1, class9_math_ch6_example_2, and class9_math_ch6_example_3 are missing."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:40:25.681618+00:00"
+    },
+    {
+      "module_id": "class9_math_ch6_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:25.681618+00:00"
+    },
+    {
+      "module_id": "class9_math_ch6_concept_4",
+      "showstoppers": [
+        "Missing formula/theorem/worked example that is in master data: The LaTeX expressions for the steps in worked examples class9_math_ch6_example_4, class9_math_ch6_example_5, and class9_math_ch6_example_6 are missing."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:40:25.681618+00:00"
+    }
+  ]
+}

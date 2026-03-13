@@ -1,0 +1,19 @@
+{
+  "chapter_name": "MEN-HER-3",
+  "validated_at": "2026-03-13T04:40:16.552170+00:00",
+  "total_modules": 1,
+  "ready_to_go": 0,
+  "do_not_release": 1,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class9_math_ch10_concept_1",
+      "showstoppers": [
+        "Incorrect steps in a worked example: The 'calculation' field, which contains the actual mathematical computation for each step, is missing from all steps in all three worked examples.",
+        "Missing required visual aid: The visual aid 'class9_math_ch10_herons_formula_geometric_figure' is missing the 'figure_data' and 'description' required to render the diagram."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:40:16.551666+00:00"
+    }
+  ]
+}

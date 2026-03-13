@@ -1,0 +1,48 @@
+{
+  "chapter_name": "GEO-LA-1",
+  "validated_at": "2026-03-13T04:40:12.538725+00:00",
+  "total_modules": 6,
+  "ready_to_go": 5,
+  "do_not_release": 1,
+  "chapter_recommendation": "DO_NOT_RELEASE",
+  "module_results": [
+    {
+      "module_id": "class7_math_ch2_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:12.538226+00:00"
+    },
+    {
+      "module_id": "class7_math_ch2_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:12.538226+00:00"
+    },
+    {
+      "module_id": "class7_math_ch2_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:12.538226+00:00"
+    },
+    {
+      "module_id": "class8_math_ch5_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:12.538226+00:00"
+    },
+    {
+      "module_id": "class8_math_ch5_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:40:12.538226+00:00"
+    },
+    {
+      "module_id": "class8_math_ch5_concept_3",
+      "showstoppers": [
+        "Incorrect steps in a worked example: In example 'class8_math_ch5_example_2', step 7, the justification for finding ∠6 from ∠2 is 'ಪರ್ಯಾಯ ಅಂತರ್ ಕೋನಗಳು' (Alternate Interior Angles), which is mathematically incorrect. The correct relationship is 'ಅನುರೂಪ ಕೋನಗಳು' (Corresponding Angles)."
+      ],
+      "release_recommendation": "DO_NOT_RELEASE",
+      "validated_at": "2026-03-13T04:40:12.538226+00:00"
+    }
+  ]
+}

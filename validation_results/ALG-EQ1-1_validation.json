@@ -1,0 +1,52 @@
+{
+  "chapter_name": "ALG-EQ1-1",
+  "validated_at": "2026-03-13T04:16:45.150908+00:00",
+  "total_modules": 7,
+  "ready_to_go": 7,
+  "do_not_release": 0,
+  "chapter_recommendation": "READY_TO_GO",
+  "module_results": [
+    {
+      "module_id": "class7_math_ch4_concept_1",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:16:45.150434+00:00"
+    },
+    {
+      "module_id": "class7_math_ch4_concept_2",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:16:45.150434+00:00"
+    },
+    {
+      "module_id": "class7_math_ch4_concept_3",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:16:45.150434+00:00"
+    },
+    {
+      "module_id": "class7_math_ch4_concept_4",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:16:45.150434+00:00"
+    },
+    {
+      "module_id": "class7_math_ch4_concept_5",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:16:45.150434+00:00"
+    },
+    {
+      "module_id": "class7_math_ch4_concept_6",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:16:45.150434+00:00"
+    },
+    {
+      "module_id": "class7_math_ch4_concept_7",
+      "showstoppers": [],
+      "release_recommendation": "READY_TO_GO",
+      "validated_at": "2026-03-13T04:16:45.150434+00:00"
+    }
+  ]
+}
